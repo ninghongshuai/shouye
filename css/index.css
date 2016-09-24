@@ -1,0 +1,115 @@
+
+
+.container{padding: 0px}
+.nei>div:nth-of-type(1){width:100%;height:150px;text-align: center;}
+.works_one_top{width: 232px;height: 41px;margin:10px auto 10px;cursor: pointer}
+.works_one_top img{transition: transform 4s ease;}
+.works_one_top:hover.works_one_top img{transform:rotateY(360deg);-webkit-transform:rotateY(360deg);-moz-transform:rotateY(360deg);}
+.nei>div:nth-of-type(2){background: #0aa6e8}
+.nei>div:nth-of-type(3){background: #990033}
+.nei>div:nth-of-type(4){background: #993399}
+.nei>div:nth-of-type(5){background: #9900FF}
+.nei>div:nth-of-type(6){background: #99CC33}
+.nei>div:nth-of-type(7){background: #CC0066}
+.nei>div:nth-of-type(8){background: #CC6600}
+.nei>div:nth-of-type(9){background: #cccccc}
+.nei>div:nth-of-type(10){background: #000000}
+
+.banana{position: relative;padding: 0;margin: auto}
+.banana_nei{width: 400px;height: 250px;left: 0;top: -100px;right: -500px;bottom: 0;margin: auto;position: absolute;text-align: center;color: #fff;cursor: pointer}
+.row{margin: 0}
+
+
+.banana_nei:hover.banana_nei p{animation: aa 2s ease-in-out;}
+.banana_nei:hover.banana_nei img{animation: aa 2s ease-in-out;}
+.banana_nei p:nth-of-type(1){margin:10px auto 30px;font-size: 30px;font-weight: bold; }
+.banana_nei p:nth-of-type(2){margin:20px auto 10px;font-size: 30px;}
+.banana_nei p:nth-of-type(3){margin:10px auto 30px;font-size: 24px;}
+.banana_nei p:nth-of-type(4){margin:5px auto 20px;}
+
+
+
+
+/*关于我*/
+.two{width: 100%;height: 620px;position: relative;margin: 0px auto 50px;}
+.two_nei{width:53%;height: 620px;background:#fff; z-index:999;position: absolute;left:0;right: 0;top:0;bottom: 0;margin-top: 50px}
+/*图标*/
+.two_nei_top{width:100%;height:150px;text-align: center;}
+.two_nei_top_top{width: 232px;height: 41px;margin:30px auto 10px;cursor: pointer}
+.two_nei_top_top img{transition: transform 4s ease;}
+.two_nei_top_top:hover.two_nei_top_top img{transform:rotateY(360deg);-webkit-transform:rotateY(360deg);-moz-transform:rotateY(360deg);}
+
+/*内容*/
+.two_nei_center{width: 80%;height: 300px;margin: auto;}
+
+.two_nei_center_left{width: 250px;height: 250px;border: 1px solid #ccc;float: left;margin-left:220px;position: relative}
+.two_nei_center_left img{width: 250px;height: 250px}
+.two_nei_center_left div{width: 250px;height: 250px;position: absolute;left: 0;top: 0;right: 0;bottom: 0;transition: all .3s ease}
+.two_nei_center_left div:hover{box-shadow: 0 0 38px rgba(0,0,0,.5) inset;transition: all .3s ease;-webkit-transition: all .3s ease;cursor: pointer}
+
+
+.two_nei_center_right{width: 250px;height: 250px;float: right;margin-right:220px;}
+.two_nei_center_right p{line-height: 35px}
+.two_nei_bottom{text-align: center;margin-top: 10px}
+.two_nei_bottom p{font-family: "San Francisco Display"}
+
+
+/*作品展示*/
+.three{width: 100%;margin: auto;background: linear-gradient(#59576c,#464646)}
+.nei{width: 900px;margin: 100px auto 100px}
+.works{width: 100%;height: 200px;position: relative}
+.works_top{     background: #28a7e9; opacity: 0.8; top: 0;  left: 0;  right: 0;  bottom: 0;  width: 100%;  height: 200px;  position: absolute;  padding: 20px 10px 20px 20px;  margin-left: auto;  margin-right: auto;  -webkit-transition: all 0.4s ease-in-out;  transition: all 0.4s ease-in-out;  box-sizing: border-box; display: block}
+
+
+
+.works_top h4{font-weight: bold;  padding-bottom: 10px;font-size: 18px;margin-top: 10px;  margin-bottom: 10px;line-height: 1.1;color: #fff  }
+.works_top p{margin: 0 0 10px;color: #fff }
+.btn-default{display: inline-block;  padding: 6px 12px;  margin-bottom: 0;  font-size: 14px; line-height: 1.4;  cursor: pointer;  }
+.btn{background: none;  border: 1px solid #fff;  border-radius: 2px;  color: #fff;  font-weight: bold;;-webkit-transition: all 0.4s ease-in-out;  transition: all 0.4s ease-in-out;}
+.btn:hover {  background: #28a7e9;  border-color: #fff;border-radius: 15px ;-webkit-transition: all 0.4s ease-in-out;  transition: all 0.4s ease-in-out; }
+
+
+
+/*专业技能*/
+.four_nei{width: 900px; margin: 50px auto 100px }
+.four_nei_top{width:100%;height:100px;text-align: center;}
+
+
+.four_nei_center{width: 100%;height:200px;border: 1px solid #ccc;margin: 50px auto 50px;box-shadow:0px 5px 20px #EAEAEA; }
+.four_nei_center_yuan1{width: 20px;height: 20px;border-radius:50%;border: 1px solid #ccc;float:left ;margin: 90px 34px 90px 34px}
+.four_nei_center_yuan2{width: 20px;height: 20px;border-radius:50%;border: 1px solid #ccc;float:right;margin: 90px 34px 90px 34px}
+.four_nei_center_center{width: 80%;height: 130px;margin: 34px auto 34px;float: left;}
+.four_nei_center_center div{width: 120px;height: 128px;border-radius:50%;margin-left: 19px;float: left;line-height: 128px;text-align: center;font-size: 22px;transition: transform 3s ease;}
+.four_nei_center_center div:hover{transform:rotateY(360deg);-webkit-transform:rotateY(360deg);-moz-transform:rotateY(360deg);cursor: pointer}
+
+
+/*工作经历*/
+.four_nei_bottom{width: 100%;height: 304px;margin: 50px auto 50px;position: relative;}
+.four_nei_bottom img{width: 100%;height: 304px;}
+.four_nei_bottom_top{width: 500px;height: 250px;;position: absolute;left:0;right: 0;top:0;bottom: 0;margin: 40px auto 30px;text-align: center;color: #fff;cursor: pointer}
+.four_nei_bottom_top_top{width: 232px;height: 41px;margin: 10px auto 15px}
+.four_nei_bottom_top_top img{width: 232px;height: 41px;transition: transform 4s ease;}
+.four_nei_bottom_top_top:hover.four_nei_bottom_top_top img{transform:rotateY(360deg);-webkit-transform:rotateY(360deg);-moz-transform:rotateY(360deg);}
+.four_nei_bottom_top p:nth-of-type(1){margin: 30px auto 10px;}
+.four_nei_bottom_top p:nth-of-type(2){margin: 10px auto 10px}
+.four_nei_bottom_top:hover.four_nei_bottom_top p{animation: aa 2s ease-in-out;}
+
+/*联系我*/
+.five{width: 100%;height: 300px;margin: auto;background: #464646}
+.row{width: 100%;height: 100%}
+.five_nei{width:100%;height:250px;text-align: center;}
+.five_nei_top{width: 100%;height: 41px;margin:30px auto 20px;cursor: pointer;}
+.five_nei_top img{transition: transform 4s ease;}
+.five_nei_top:hover.five_nei_top img{transform:rotateY(360deg);-webkit-transform:rotateY(360deg);-moz-transform:rotateY(360deg);}
+
+
+.five_nei_bottom{margin: 20px auto 20px;position: relative}
+.five_nei_bottom_top{width: 100%;height: 100px;position: absolute;left: 0;top: 0;bottom: 0;right: 0}
+.five_nei_bottom_top div{float: left;margin: 40px 49px;color: #fff;}
+.five_nei_bottom_top span:nth-of-type(1){font-size: 40px;color: #fff;transition: all 1s ease;cursor: pointer}
+.five_nei_bottom_top span:nth-of-type(1):hover{font-size: 50px;color: yellow; transition: all 1s ease;}
+
+
+
+
+
